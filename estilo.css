@@ -1,0 +1,114 @@
+.main{
+    
+    min-height: 100vh;
+    background-color: gainsboro;
+    width: 100%;
+}
+
+.body{
+    display: flex;
+}
+
+
+.icono{
+    
+    display: flex;
+    border: rgb(172, 135, 135) 1px solid;
+     width: 500px;
+    color: blue;
+    margin: 20px;
+}
+svg{
+    padding-right: 20px;
+    width: 100px;
+    height: 100px;
+}
+.contenido{
+width: 100%;
+text-align: center;
+
+height: 1100px;
+}
+.container{
+    margin: auto;
+    width: 100%;
+}
+.img1{
+    height: 300px;
+    border-radius: 50%;
+    
+}
+.img2{
+    height: 300px;
+    width: 50%;
+}
+.conoce{
+    width: 100%;
+  text-align: center;
+    background-color: rgb(24, 24, 93);
+    color: white;
+ 
+  height: 400px;
+  
+}
+
+.imagenes img{
+    width: 70%;
+    height: 80%;
+
+    margin: auto;
+    
+}
+.svg1{
+    padding-left: 5px;
+    height: 40px ;
+}
+.articulos{
+    margin: 80px;
+    justify-content: center;
+}
+.carousel-item img{
+    width: 60%;
+    border-radius: 50%;
+}
+.carousel-inner{
+   
+    justify-content: center;
+}
+.carousel-indicators {
+    bottom: 10px; 
+    color: #030101;
+}
+
+.carousel-indicators button {
+    background-color: #030101; 
+    border-radius: 50%; 
+    height: 10px; 
+    margin: 0 5px; 
+    color: #030101;
+   
+}
+
+.carousel-indicators .active {
+    background-color: #555; 
+}
+.footer{
+    background-color: rgb(15, 15, 77);
+    max-width: auto;
+    max-width: 100%;
+   margin-top: 200px;
+   
+
+}
+.textopie{
+    color: white;
+}
+.iconospie > svg{
+    margin: 10px;
+    height: 40px;
+
+    color: white;
+}
+.container{
+    width: 800px;
+}
